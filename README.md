@@ -71,13 +71,12 @@ pip install -r requirements.txt
 ```
 
 ### 2. 환경 변수 설정
-프로젝트 루트의 `.env.example` 파일을 복사하여 `.env` 파일을 생성하고 API 키를 입력하세요.
+`.env` 파일을 생성하고 API 키를 입력하세요.
 
 ```bash
 # ./Recipe Recommendation/.env
 GEMINI_API_KEY=your_key_here
 UPSTAGE_API_KEY=your_key_here
-DJANGO_SECRET_KEY=your_secret_key
 ```
 
 ### 3. 서버 실행
